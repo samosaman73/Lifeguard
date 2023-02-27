@@ -4,11 +4,20 @@ const TOKEN = process.env['TOKEN']
 
 const aoijs = require("aoi.js")
 
+//legacy code
+//const bot = new aoijs.AoiClient({
+//  token: "",
+//  prefix: "|",
+//  intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS"],
+//})
+//legacy code
+
 const bot = new aoijs.AoiClient({
-  token: "",
+  token: "MTA0NDMyMzE4NzQ3NjkyNjQ3NA.GUYr4v.0ecGzn-f2ErBtFIhyDwRhK1WJSXTl7oGAIETcQ",
   prefix: "|",
-  intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS"],
-})
+  intents: ["MessageContent", "Guilds", "GuildMessages", "GuildMembers"],
+  events: ["onMessage", "onJoin", "onLeave"]
+});
 
 bot.readyCommand({
     channel: "",
