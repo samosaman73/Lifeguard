@@ -25,10 +25,21 @@ bot.readyCommand({
 })
 
 bot.status({
-  text: "version 23.2.1",
+  text: "Bot version: 23.2.1",
   type: "PLAYING",
   status: "onlne",
-  url: "https://www.twitch.tv/samosaman73",
+  time: 12
+})
+bot.status({
+  text: "aoi.js version: 6.1.1",
+  type: "PLAYING",
+  status: "onlne",
+  time: 12
+})
+bot.status({
+  text: "the Discord Leisure Centre",
+  type: "WATCHING",
+  status: "onlne",
   time: 12
 })
 
