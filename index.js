@@ -16,7 +16,7 @@ bot.readyCommand({
 })
 
 bot.status({
-  text: "version 23.1.3",
+  text: "version 23.2.1",
   type: "PLAYING",
   status: "onlne",
   url: "https://www.twitch.tv/samosaman73",
