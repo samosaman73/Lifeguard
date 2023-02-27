@@ -1,0 +1,6 @@
+module.exports = {
+  name:"say",
+  code:`$message
+$onlyForIDs[686205239560241290;no u]
+$deleteCommand`
+}
