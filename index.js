@@ -32,9 +32,9 @@ bot.status({
   time: 12
 })
 
-bot.onMessage()
-bot.onJoin()
-bot.onLeave()
+//bot.onMessage()
+//bot.onJoin()
+//bot.onLeave()
 
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./commands/")
