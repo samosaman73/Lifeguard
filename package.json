@@ -9,7 +9,7 @@
   "author": "SamosaMan73",
   "license": "ISC",
   "dependencies": {
-    "@akarui/aoi.panel": "16.9.0",
+    "@akarui/aoi.panel": "6.1.1",
     "aoi.js": "^5.5.5",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
