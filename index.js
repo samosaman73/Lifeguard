@@ -5,7 +5,7 @@ const TOKEN = process.env['TOKEN']
 const aoijs = require("aoi.js")
 
 const bot = new aoijs.AoiClient({
-  token: "MTA0NDMyMzE4NzQ3NjkyNjQ3NA.GOuZfJ.yKhBhCGCZu88INBfx82lQF8Bg9UvnpZ-mTP20g",
+  token: "",
   prefix: "|",
   intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS"],
 })
