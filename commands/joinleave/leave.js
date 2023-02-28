@@ -4,7 +4,7 @@ module.exports = [{
     code: `
 $title[Goodbye!]
 $description[And now we wave a big goodbye to $userTag! Farewell!]
-$color[AQUA]`
+$color[00ffff]`
 },
 {
   channel: "825355425289207837",
