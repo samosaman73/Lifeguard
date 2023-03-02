@@ -13,7 +13,7 @@ const aoijs = require("aoi.js")
 //legacy code
 
 const bot = new aoijs.AoiClient({
-  token: "MTA0NDMyMzE4NzQ3NjkyNjQ3NA.GUYr4v.0ecGzn-f2ErBtFIhyDwRhK1WJSXTl7oGAIETcQ",
+  token: "",
   prefix: "|",
   intents: ["MessageContent", "Guilds", "GuildMessages", "GuildMembers"],
   events: ["onMessage", "onJoin", "onLeave"]
