@@ -11,7 +11,7 @@
   "dependencies": {
     "@akarui/aoi.panel": "^0.0.4",
     "aoi.js": "^6.1.1",
-    "discord.js": "^14.7.1",
+    "discord.js": "^14.8.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "modmail.djs": "^1.0.9"
